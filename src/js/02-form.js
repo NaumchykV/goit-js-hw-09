@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
     formData.message = parsedData.message;
     emailInput.value = parsedData.email;
     messageTextarea.value = parsedData.message;
-    console.log(emailInput);
   }
 });
 
